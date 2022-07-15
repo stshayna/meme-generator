@@ -38,5 +38,23 @@ form > input {
 }
 main > img {
   max-width: 100%;
+}
+.meme {
   margin-block: 24px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.meme > .text {
+  position: absolute;
+  font-size: 4rem;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px black;
+}
+.top {
+  top: 0;
+}
+.bottom {
+  bottom: 0;
 }
